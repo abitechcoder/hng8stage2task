@@ -1,0 +1,20 @@
+{
+  "name": "hng8stage2task",
+  "version": "1.0.0",
+  "description": "This is the repository for my task for HNG8 Stage 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abitechcoder/hng8stage2task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abitechcoder/hng8stage2task/issues"
+  },
+  "homepage": "https://github.com/abitechcoder/hng8stage2task#readme"
+}

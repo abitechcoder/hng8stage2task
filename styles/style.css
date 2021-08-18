@@ -1,0 +1,114 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.career {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+  color: #738ee8;
+}
+p {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.greet {
+  background: linear-gradient(90deg, #070103, #3453bd, #070103);
+  height: 100vh;
+  width: 100vw;
+}
+.intro {
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  justify-content: space-between;
+}
+
+.my-image {
+  width: 300px;
+  height: 300px;
+}
+
+.rounded {
+  border-radius: 50%;
+  padding: 1px;
+  border: 8px solid transparent;
+  background: linear-gradient(60deg, #efa51a 10%, #cc0 100%);
+}
+
+.arrowD {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  right: 50%;
+  background: linear-gradient(60deg, #efa51a 10%, #cc0 100%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 20px;
+}
+.ig4 {
+  width: 100px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(60deg, #efa51a 10%, #cc0 100%);
+  padding: 10px;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .my-image {
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -111,4 +111,21 @@ p {
     width: 200px;
     height: 200px;
   }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  .name,
+  .career {
+    text-align: center;
+  }
+
+  .arrowD {
+    display: none;
+  }
 }

@@ -2,9 +2,9 @@
   "name": "hng8stage2task",
   "version": "1.0.0",
   "description": "This is the repository for my task for HNG8 Stage 2",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/abitechcoder/hng8stage2task/issues"
   },
-  "homepage": "https://github.com/abitechcoder/hng8stage2task#readme"
+  "homepage": "https://github.com/abitechcoder/hng8stage2task#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
 }

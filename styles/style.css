@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: "Playfair Display", serif;
+  background-color: #151515;
 }
 
 h1 {
@@ -287,6 +288,13 @@ input[type="submit"]:hover {
 
 label {
   font-family: "Lobster", cursive;
+}
+
+footer {
+  padding: 20px;
+  background-color: #272424;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* For desktop: */

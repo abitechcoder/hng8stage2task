@@ -321,6 +321,7 @@ footer {
   .intro-flex {
     display: flex;
     flex-direction: column-reverse;
+    margin-bottom: 30px;
   }
 
   .my-image {
@@ -346,9 +347,9 @@ footer {
     font-weight: bold;
     font-style: italic;
   }
-  .arrowD {
+  /* .arrowD {
     display: none;
-  }
+  } */
   .social {
     width: 100%;
     display: flex;
